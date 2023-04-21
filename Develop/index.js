@@ -60,41 +60,75 @@ inquirer
     ])
     .then(function(response) {
         const readme =
-         
-        `# ${response.title}
+` # ${response.title}
 
 
     
-     ## Description
-     ${response.description}
-
-     ## Table of Contents
-        * [Installation] (#installation)
-        * [Usage] (#usage)
-        * [License] (#license)
-        * [Contributing] (#contributing)
-        * [Tests] (#tests)
-        * [Questions] (#questions)
+ ## Description
+ ${response.description}            
         
-     # Installation
-     ${response.installation}
+ ## Table of Contents
+ * [Installation](#installation)
+ * [Usage](#usage)
+ * [License](#license)
+ * [Contributing](#contributing)
+ * [Tests](#tests)
+ * [Questions](#questions)
+                
+ ## Installation
+ ${response.installation}            
+        
+ ## Usage
+ ${response.usage}            
+        
+ ## License
+ ${response.license} licensing.
+        
+ ## Contributing
+ ${response.contribution}            
+        
+ ## Tests
+ ${response.test}            
+        
+ ## Questions
+ If you have any questions, please contact me at ${response.email} or visit my GitHub page at
+        https://github.com/${response.github}.
+    `
+                    
+        // `# ${response.title}
 
-     # Usage
-     ${response.usage}
 
-     # License
-     ${response.license} licensing. 
+    
+    //  ## Description
+    //  ${response.description}
 
-     # Contributing
-     ${response.contribution}
+    //  ## Table of Contents
+    //     * [Installation] (#installation)
+    //     * [Usage] (#usage)
+    //     * [License] (#license)
+    //     * [Contributing] (#contributing)
+    //     * [Tests] (#tests)
+    //     * [Questions] (#questions)
+        
+    //  # Installation
+    //  ${response.installation}
 
-     # Tests
-     ${response.test}
+    //  # Usage
+    //  ${response.usage}
 
-     ## Questions
-     If you have any questions, please contact me at ${response.email} or visit my GitHub page at
-     (https://github.com/${response.github}).
-        `
+    //  # License
+    //  ${response.license} licensing. 
+
+    //  # Contributing
+    //  ${response.contribution}
+
+    //  # Tests
+    //  ${response.test}
+
+    //  ## Questions
+    //  If you have any questions, please contact me at ${response.email} or visit my GitHub page at
+    //  (https://github.com/${response.github}).
+    //     `
         fs.writeFile("README.md", readme, function(err) {
             if (err) {
                 return console.log(err);
@@ -104,17 +138,17 @@ inquirer
     });
 
 
-const questions = [];
+// const questions = [];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {
-    fs.writeFile('README.md', data, function(err) {
-        if (err) {
-            return console.log(err);
-        }
-        console.log("Success!");
-    });
-}
+// function writeToFile(fileName, data) {
+    // fs.writeFile('README.md', data, function(err) {
+    //     if (err) {
+    //         return console.log(err);
+    //     }
+    //     console.log("Success!");
+    // });
+// }
 
 // TODO: Create a function to initialize app
 // function init() {}
