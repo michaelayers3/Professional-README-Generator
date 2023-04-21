@@ -94,7 +94,7 @@ ${this.licenseBadge}
  ${response.usage}            
         
  ## License
- ${response.license} licensing.
+ ${response.license}
         
  ## Contributing
  ${response.contribution}            
@@ -115,29 +115,3 @@ ${this.licenseBadge}
             console.log("Success!");
         });
     });
-
-
-// const questions = [];
-
-// TODO: Create a function to write README file
-// function writeToFile(fileName, data) {
-    // fs.writeFile('README.md', data, function(err) {
-    //     if (err) {
-    //         return console.log(err);
-    //     }
-    //     console.log("Success!");
-    // });
-// }
-
-// TODO: Create a function to initialize app
-// function init() {}
-
-// Function call to initialize app
-// init();
-
-
-// badges
-"[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
-"[![License: Apache](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
-"[![License: GPL](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)"
-"[![License: BSD](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)"
