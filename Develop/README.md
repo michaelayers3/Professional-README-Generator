@@ -1,4 +1,6 @@
- # test
+
+[![License: GPL](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+ # Test
 
 
     
@@ -20,7 +22,7 @@
  test            
         
  ## License
- MIT licensing.
+ GPL licensing.
         
  ## Contributing
  test            
@@ -29,6 +31,6 @@
  test            
         
  ## Questions
- If you have any questions, please contact me at test@test.com or visit my GitHub page at
+ If you have any questions, please contact me at test or visit my GitHub page at
         https://github.com/test.
     
